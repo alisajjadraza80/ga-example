@@ -1,4 +1,4 @@
-param location string = 'westus2'
+param location string = 'westus3'
 param storageAccountName string = 'bicepgithubalistorage'
 
 resource storageAccount 'Microsoft.Storage/storageAccounts@2021-04-01' = {
